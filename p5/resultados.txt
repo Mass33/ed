@@ -1,0 +1,75 @@
+                            TEST                                    TIEMPO MEDIO     MEJOR TIEMPO    PEOR TIEMPO
+Insercción de un dato al final de la lista tipo Array.               0,000756 ms.    0,000558 ms.    0,014666 ms.
+Insercción de un dato al final de la lista tipo Linked.              0,000747 ms.    0,000628 ms.    0,014247 ms.
+ 
+Insercción de un dato al principio de la lista tipo Array.           0,000995 ms.    0,000768 ms.    0,015993 ms.
+Insercción de un dato al principio de la lista tipo Linked.          0,000803 ms.    0,000628 ms.    0,010057 ms.
+ 
+Insercción de un dato a mitad de la lista tipo Array.                0,000820 ms.    0,000698 ms.    0,010477 ms.
+Insercción de un dato a mitad de la lista tipo Linked.               0,001352 ms.    0,001117 ms.    0,010965 ms.
+ 
+Eliminar un dato al final de la lista tipo Array.                    0,000678 ms.    0,000558 ms.    0,010406 ms.
+Eliminar un dato al final de la lista tipo Linked.                   0,000753 ms.    0,000628 ms.    0,010616 ms.
+ 
+Eliminar un dato al principio de la lista tipo Array.                0,000775 ms.    0,000698 ms.    0,008660 ms.
+Eliminar un dato al principio de la lista tipo Linked.               0,000620 ms.    0,000558 ms.    0,001188 ms.
+ 
+Eliminar un dato a mitad de la lista tipo Array.                     0,000765 ms.    0,000628 ms.    0,010616 ms.
+Eliminar un dato a mitad de la lista tipo Linked.                    0,001219 ms.    0,001117 ms.    0,010896 ms.
+ 
+Eliminar un dato al final de la lista tipo Array por su valor.       0,008665 ms.    0,001257 ms.    0,117822 ms.
+Eliminar un dato al final de la lista tipo Linked por su valor.      0,006746 ms.    0,002514 ms.    0,069632 ms.
+ 
+Eliminar un dato al inicio de la lista tipo Array por su valor.      0,000883 ms.    0,000768 ms.    0,023537 ms.
+Eliminar un dato al inicio de la lista tipo Linked por su valor.     0,000639 ms.    0,000558 ms.    0,001047 ms.
+ 
+Eliminar un dato a mitad de la lista tipo Array por su valor.        0,001286 ms.    0,001047 ms.    0,011035 ms.
+Eliminar un dato a mitad de la lista tipo Linked por su valor.       0,001652 ms.    0,001536 ms.    0,011384 ms.
+ 
+Buscar un dato en la lista tipo Array mediante funciones.            0,007911 ms.    0,001117 ms.    0,183682 ms.
+Buscar un dato en la lista tipo Linked mediante funciones.           0,006365 ms.    0,002096 ms.    0,077594 ms.
+ 
+Buscar un dato en la lista tipo Array mediante bucle.                0,011771 ms.    0,001047 ms.    0,153860 ms.
+Buscar un dato en la lista tipo Linked mediante bucle.               0,257779 ms.    0,246539 ms.    0,937130 ms.
+ 
+Buscar un dato en la lista tipo Array mediante busqueda binaria.     0,000654 ms.    0,000628 ms.    0,009219 ms.
+Buscar un dato en la lista tipo Linked mediante busqueda binaria.    0,000667 ms.    0,000628 ms.    0,003771 ms.
+ 
+Borrar todos los datos de la lista tipo Array.                       0,002096 ms.    0,000838 ms.    0,050146 ms.
+Borrar todos los datos de la lista tipo Linked.                      0,004598 ms.    0,002724 ms.    0,073682 ms.
+ 
+
+
+                            TEST                                          TIEMPO MEDIO     MEJOR TIEMPO     PEOR TIEMPO         SWAPS      COMPARACIONES     EXISTE   CORRECTO
+Ordenar los datos de una lista aleatoria con el método burbuja:           05,335029 ms.    03,894350 ms.    16,243266 ms.     001846890      004995000         Si        Si       
+Ordenar los datos de una lista ya ordenada con el método burbuja:         01,893509 ms.    01,819644 ms.    02,095657 ms.     000000000      004995000         Si        Si       
+Ordenar los datos de una lista ordenada inversa con el método burbuja:    03,861000 ms.    02,692381 ms.    04,490864 ms.     004995000      004995000         Si        Si       
+Ordenar los datos de una lista de todos iguales con el método burbuja:    01,912925 ms.    01,864133 ms.    02,073937 ms.     000000000      004995000         Si        Si       
+ 
+Ordenar los datos de una lista aleatoria con el método selection:         09,744478 ms.    05,317226 ms.    36,740074 ms.     004989160      004995000         Si        Si       
+Ordenar los datos de una lista ya ordenada con el método selection:       01,808931 ms.    01,709924 ms.    02,159073 ms.     000000000      004995000         Si        Si       
+Ordenar los datos de una lista ordenada inversa con el método selection:  05,004637 ms.    03,883524 ms.    07,108305 ms.     004995000      004995000         Si        Si       
+Ordenar los datos de una lista de todos iguales con el método selection:  01,770818 ms.    01,619689 ms.    02,106133 ms.     000000000      004995000         Si        Si       
+ 
+Ordenar los datos de una lista aleatoria con el método insertion:         02,988948 ms.    00,749327 ms.    10,418502 ms.     002446040      000009990         Si        Si       
+Ordenar los datos de una lista ya ordenada con el método insertion:       00,035242 ms.    00,028146 ms.    00,048400 ms.     000000000      000009990         Si        Si       
+Ordenar los datos de una lista ordenada inversa con el método insertion:  01,661336 ms.    01,503404 ms.    02,096356 ms.     004995000      000009990         Si        Si       
+Ordenar los datos de una lista de todos iguales con el método insertion:  00,083907 ms.    00,008800 ms.    00,486584 ms.     000000000      000009990         Si        Si       
+ 
+Ordenar los datos de una lista aleatoria con el método quick:             00,374566 ms.    00,251639 ms.    01,214819 ms.     000026570      000082760         Si        Si       
+Ordenar los datos de una lista ya ordenada con el método quick:           00,111697 ms.    00,103784 ms.    00,156095 ms.     000005110      000079870         Si        Si       
+Ordenar los datos de una lista ordenada inversa con el método quick:      00,144201 ms.    00,118241 ms.    00,319104 ms.     000010100      000069960         Si        Si       
+Ordenar los datos de una lista de todos iguales con el método quick:      00,226482 ms.    00,195416 ms.    00,338381 ms.     000045480      000000000         Si        Si       
+ 
+Ordenar los datos de una lista aleatoria con el método merge:             00,938164 ms.    00,636603 ms.    02,385778 ms.     000000000      000099760         Si        Si       
+Ordenar los datos de una lista ya ordenada con el método merge:           00,746261 ms.    00,543365 ms.    01,074717 ms.     000000000      000099760         Si        Si       
+Ordenar los datos de una lista ordenada inversa con el método merge:      00,507816 ms.    00,286139 ms.    00,874133 ms.     000000000      000099760         Si        Si       
+Ordenar los datos de una lista de todos iguales con el método merge:      00,319021 ms.    00,270635 ms.    00,497899 ms.     000000000      000099760         Si        Si       
+ 
+Buscar un dato en una lista ya ordenada mediante busqueda binaria.        00,000852 ms.    00,000628 ms.    00,002724 ms.                                      Si        Si       
+ 
+Buscar un dato en una lista aleatoria mediante bucle.                     00,025296 ms.    00,013688 ms.    00,114190 ms.                                      Si        Si       
+Buscar un dato en una lista ya ordenada mediante bucle.                   00,003667 ms.    00,003492 ms.    00,004540 ms.                                      Si        Si       
+Buscar un dato en una lista ordenada inversa mediante bucle.              00,067334 ms.    00,058457 ms.    00,101829 ms.                                      Si        Si       
+Buscar un dato en una lista de todos iguales mediante bucle.              00,078697 ms.    00,064114 ms.    00,132069 ms.                                      Si        Si       
+ 

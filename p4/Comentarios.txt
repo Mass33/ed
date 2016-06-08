@@ -1,0 +1,11 @@
+Se han implementado las siguientes funciones:
+
+- Implementada la clase ChessPieceImplementation, ahora el juego funciona en modo consola.
+- Se ha comentado todas las funciones de la clase PiecePosition, para mejor entendimiento.
+- Se ha cambiado el diseño gráfico de los caballos, ahora son un rectángulo y un triángulo.
+- Implementada la función de salvar/cargar partida en modo gráfico.
+- Ahora al seleccionar una pieza se colorean en el tablero las casillas a las que la puedes mover.
+- Ahora el juego respeta los turnos correctamente en modo gráfico.
+- Implementada la IA en modo gráfico, ahora se puede jugar contra la maquina.
+- Ahora los peones se transforman en reinas al llegar al extremo opuesto del tablero.
+- Se han corregido varios bugs que afectaban al funcionamiento correcto del programa.
